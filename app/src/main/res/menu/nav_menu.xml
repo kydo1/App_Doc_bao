@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_trangchu"
+            android:title="Trang chủ"/>
+
+        <item
+            android:id="@+id/nav_danhmuc"
+            android:title="Danh mục"/>
+
+        <item
+            android:id="@+id/nav_dangtin"
+            android:title="Đăng tin"/>
+
+        <item
+            android:id="@+id/nav_acount"
+            android:title="Account"/>
+
+        <item
+            android:id="@+id/nav_translate"
+            android:title="Dịch từ điển"/>
+
+
+    </group>
+    <item
+        android:title="Khác">
+
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:title="Thông tin app"/>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Thoát app"/>
+        </menu>
+
+    </item>
+
+</menu>
